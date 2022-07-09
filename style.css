@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #1f2937;
+}
+
+section {
+  max-width: 1200px;
+  margin: auto;
+}
+
+header .header-content {
+  display: flex;
+  padding: 10rem 0;
+}
+
+header .header-content .header-content-left {
+  margin-right: 5rem;
+}
+
+header .hero-main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+
+header .hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  line-height: 25px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+header nav ul {
+  list-style: none;
+  color: #f9faf8;
+  display: flex;
+}
+
+header nav ul li {
+  padding: 0.5rem;
+}
+
+header nav ul li a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+header nav .logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.btn {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
+  margin-top: 0.5rem;
+}
+.white-border {
+  border: 1px solid #f9faf8;
+}
+
+#random-info {
+  padding: 3rem 0;
+}
+
+#random-info h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+}
+
+#random-info .random-info-container {
+  display: flex;
+  justify-content: center;
+}
+
+#random-info .random-info-container figure {
+  width: 20%;
+  padding: 2%;
+}
+
+#random-info .random-info-container figure figcaption {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 18px;
+}
+
+#random-info .random-info-container figure .random-box {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #3882f6;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+}
+
+#quote {
+  background-color: #e5e7eb;
+  max-width: unset;
+}
+#quote .code-conainer {
+  max-width: 1200px;
+  margin: auto;
+  padding: 6rem;
+}
+#quote .code-conainer p {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+}
+
+#quote .code-conainer h6 {
+  font-size: 28px;
+  color: #1f2937;
+  font-weight: 700;
+  text-align: right;
+}
+
+#sign-up {
+  padding: 6rem 0;
+}
+
+#sign-up .sign-up-conainer {
+  background-color: #3882f6;
+  display: flex;
+  padding: 2rem 2.5rem;
+  color: #e5e7eb;
+  justify-content: space-around;
+  align-items: center;
+}
+footer {
+  background-color: #1f2937;
+  padding: 1rem 0;
+  color: #e5e7eb;
+  text-align: center;
+}
